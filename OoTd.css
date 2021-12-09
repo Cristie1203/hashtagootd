@@ -1,0 +1,102 @@
+body{
+  background-color: black;
+}
+
+
+@media only screen and (max-width: 600px){
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  #qs{
+    color: White;
+    font-size: 100%;
+    left: 10%;
+    padding: 10px;
+    margin: 10px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .ans{
+    color: GhostWhite;
+    font-size: 100%;
+    width: 50%;
+    left: 20%;
+    border-style: outset;
+    border-width: 3px;
+    padding:10px;
+    margin: 10px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .ans:hover{
+    background-color: DimGrey;
+    border-style: inset;
+    font-size: 90%;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+#home{
+  position: absolute;
+  top: 12%;
+}
+.btn{
+  position: relative;
+  top: 40px;
+  left: 33%;
+  color: GhostWhite;
+  text-align: center;
+  font-size: 150%;
+  background-color: DimGray;
+  width: 34%;
+  height: 200%;
+  line-height: 200%;
+  border-style: outset;
+  border-width: 5px;
+}
+.btn:hover{
+  border-style: inset;
+  color: black;
+}
+
+#qs{
+  color: White;
+  font-size: 200%;
+  left: 10%;
+  padding: 20px;
+  margin: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.ans{
+  color: GhostWhite;
+  font-size: 150%;
+  width: 50%;
+  left: 20%;
+  border-style: outset;
+  border-width: 3px;
+  padding:20px;
+  margin: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.ans:hover{
+  background-color: DimGrey;
+  border-style: inset;
+  font-size: 140%;
+}
+.pic{
+  width: 20%;
+  height: auto;
+  left: 50%;
+  border-width: 5px;
+}
+#end{
+  top: 12%;
+  color: GhostWhite;
+  font-family: "Times New Roman", Times, serif;
+}
